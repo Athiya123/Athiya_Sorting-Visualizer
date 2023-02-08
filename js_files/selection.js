@@ -35,6 +35,7 @@
         ele[min_index].style.background = 'cyan';
         // change the sorted elements color to green
         ele[i].style.background = 'green';
+        
     }
 }
 

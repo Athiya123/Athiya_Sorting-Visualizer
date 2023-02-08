@@ -21,13 +21,22 @@ body {
     transition: 0.1s all ease;
 }
 
+
 .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        display: right;
+        justify-content: right;
+        width: max-content;
+        justify-content: space-between;
+        display: flex;
+        padding-right: 20px;
 }
+
 
 #input{
     display: flex;
     padding: 10px;
     justify-content: space-around;
+    
 }
