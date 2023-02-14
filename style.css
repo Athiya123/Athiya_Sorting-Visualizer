@@ -25,7 +25,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
 }
-.bar { 
+.bar{ 
     width: 4px;
     height: 10px;
     background-color: rgb(105, 122, 9);
@@ -36,6 +36,7 @@ body {
     padding :10px 3px 10px;
     transition: 2s all ease;
 }
+
 #input{
     display: flex;
     padding: 10px;
